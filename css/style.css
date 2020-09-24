@@ -1,0 +1,160 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div, p, input, button, form,  span, a, ul, li {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('../img/backgraund_sity.jpg') center center/cover no-repeat;
+    height: 896px;
+    margin: 0;
+    padding: 50px 0 290px 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 330px;
+}
+
+.header_logo .logo h2 {
+    color: #fde428;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.header_logo .logo .header_sublogo {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    margin-left: 6px;
+}
+
+.header_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header_icon i {
+    margin-left: 5px;
+    letter-spacing: 0.56px;
+    color: #fff;
+}
+
+.menu_row {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 0.56px;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 34px;
+}
+
+.border {
+    display: inline-block clearfix;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 225px;   
+  }
+  
+.border .border_block {
+    border: 10px solid #fde428;
+    border-left: none;
+    padding: 40px;
+    float: right;
+    height: 378px;
+    width: 299px;
+  }
+  
+  .border .border_block .border_text {
+    width: 125%;
+    margin-left: -109%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    color: #fff;
+    text-align: right;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 51px;
+
+  }
+.border_text::before {
+    content: '';
+    position: absolute;
+    left: 87%;
+    bottom:100%;
+    width: 10px;
+    height: 84px;
+    background: #fde428;
+    margin-left: -40px;
+  }
+
+.border_text::after {
+    content: '';
+    position: absolute;
+    left: 87%;
+    top:143%;
+    width: 10px;
+    height: 63px;
+    background: #fde428;
+    margin-left: -40px;
+  }
+
+.border_lirn a {
+      color: #fde428;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 40%;
+      margin-left: -50%;
+      position: relative;
+  }
+
+  
+.border_lirn a::before {
+    content: '';
+    position: absolute;
+    left: 82%;
+    bottom:140%;
+    width: 10px;
+    height: 30px;
+    background: #fde428;
+    margin-left: -40px;
+  }
